@@ -99,6 +99,9 @@ import ForgetPwd1 from "../pages/AuthenticationInner/ForgetPassword";
 
 // Admission Form Component
 import AdmissionForm from "../pages/AdmissionForm/AdmissionForm";
+import ApplicationList from "../pages/AdmissionForm/ApplicationList";
+import ReverificationList from "../pages/AdmissionForm/ReverificationList";
+
 
 // Masters
 import CourseMaster from "../pages/Masters/courseMaster";
@@ -195,6 +198,8 @@ const authProtectedRoutes = [
 
 	//admission form
 	{ path: "/admission-form", component: <AdmissionForm /> },
+	{ path: "/applications", component: <ApplicationList /> },
+	{ path: "/reverification", component: <ReverificationList /> },
 
 
 	//masters
