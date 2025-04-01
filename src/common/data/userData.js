@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const instance = axios.create({ baseURL: 'https://admission.cubiclehr.com/api/v1' });
+const instance = axios.create({ baseURL: 'https://salmon-reindeer-594271.hostingersite.com/api/v1' });
 
 const formAdminRoot = '/admissionForm/#/app';
 
